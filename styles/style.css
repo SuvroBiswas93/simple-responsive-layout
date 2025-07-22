@@ -43,6 +43,9 @@ img{
 
 /* responsive */
 @media screen and (max-width:576px) {
+    .row{
+    height: auto
+    }
     .middle{
         grid-template-columns: 1fr;
     }
@@ -52,4 +55,5 @@ img{
     .last-middle-img{
         grid-template-columns: repeat(2,1fr);
     }
+   
 }
